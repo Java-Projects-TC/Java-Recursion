@@ -13,24 +13,32 @@ public class RecursionTestSuite {
 
   public static void gcdTests() {
     checkGCD(12, 16, 4);
-    // TODO: add test cases for greatest common divisor here.
+    checkGCD(14748364, 1088742, 2);
+
   }
 
   public static void isPrimeTests() {
     checkIsPrime(9, false);
-    // TODO: add test cases for isPrime here.
+    checkIsPrime(2, true);
+    checkIsPrime(1, false);
+    checkIsPrime(32452867, true);
+    checkIsPrime(32452868, false);
+
   }
 
   public static void sumSquareDigitsTests() {
     checkSumSquareDigits(10, 1);
     checkSumSquareDigits(103, 10);
-    // TODO: add test cases for sumSquareDigits here.
+    checkSumSquareDigits(62780359, 268);
+
   }
 
   public static void isHappyTests() {
     checkIsHappy(397, true);
     checkIsHappy(123, false);
-    // TODO: add test cases for isHappy here.
+    checkIsHappy(1000, true);
+    checkIsHappy(999, false);
+
   }
 
 
